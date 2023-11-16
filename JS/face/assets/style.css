@@ -1,0 +1,158 @@
+:root {
+    --color-light-10:#1877F2;
+    --color-light-20:#42B72A;
+    --color-light-30:#1C1E21;
+    --color-light-40:#8A8D91;
+    --color-light-50:#737373;
+    --color-light-60:#90949C;
+    --color-light-70:#626A79;
+    --color-light-80:#f0f2f5;
+    --color-light-90:#ffffff;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cont {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 49px 0px;
+    background: var(--color-light-80);
+}
+
+.logo-facebook > h1{
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-light-10);
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    margin-right: 10px;
+}
+.card-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-light-90);
+    width: 21%;
+    height: 81%;
+    gap: 12px;
+    border-radius: 10px;
+    box-shadow:0 -2px 4px rgba(0, 0, 0, .1),
+     0 8px 16px rgba(0, 0, 0, .1);
+     margin-top: 3px;
+     margin-right: 13px;
+}
+
+.card-h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 24px 0px 16px;
+    margin-bottom: -5px;
+}
+
+input{
+    all: unset;
+    width: 93%;
+    padding: 14px 16px;
+    border-radius: 6px;
+    border: solid #dddfe2 1px;
+    color: #1d2129;
+    height: 52px;
+    line-height: 16px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.placeholder:focus-visible{
+    border: solid #00000056 1px;
+    opacity:40%;
+}
+
+label {
+    all: unset;
+    padding: 6px 0px;
+    margin: 0px 16px;
+    color: var(--color-light-30);
+    font-size: 60px;
+}
+
+.btn-up {
+    width: 93%;
+    height: 48px;
+    padding: 0px 16px;
+    cursor: pointer;
+    text-decoration: none;
+    background: var(--color-light-10);
+    border: none;
+    border-radius: 6px;
+    display: inline-block;
+    color: var(--color-light-90);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn-up:hover {
+    background: #166FE5;
+}
+
+a {
+    text-decoration: none;
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h4 {
+    font-size: 12px;
+    font-weight: 2;
+    margin-top: 2px;
+}
+
+.btn-down {
+    width: 42%;
+    height: 49px;
+    padding: 0px 16px;
+    cursor: pointer;
+    text-decoration: none;
+    background: #42B72A;
+    border: none;
+    border-radius: 6px;
+    display: inline-block;
+    color: var(--color-light-90);
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.btn-down:hover {
+    background: #2B9217;
+}
+
+@media screen and (max-wight:600px) {
+    .card-logo {
+        width: 100vw;
+        height: 100vh;
+    }
+}

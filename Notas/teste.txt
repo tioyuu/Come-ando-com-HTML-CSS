@@ -1,0 +1,42 @@
+mdn text-decoration
+https://fonts.google.com/?query=Telefonica+S.A.
+monospace
+sans-serif
+arial
+helvetica
+ display controla a caixa
+inline = mesma linha
+wigth e height nao permitem ser usados com inline
+comportamento de palavra - o botão as outras caixar são uma palavra/a caixa em si vira uma palavra cada um tem um comportamento de uma palavra, a tag ia toda vira uma palavra
+nav seria o pai a caixa q mandar no produto dentro
+o que define o tamanho da caixa é o conteudo
+ 
+block
+não deixa na mesma linha
+consigo definir largura e altura
+nao tem um comportamento de palavra
+o que define a largura é sempre o pai
+pai header 
+filho nav
+widht 100% do pai
+o que define o height é o conteudo/elemento filho
+
+inline-block
+ele faz com que o elemento fique na mesma linha
+ele permite definir altura e lagura
+ele erda o comportamento do pai, o tamanho é definido pelo conteudo
+
+
+Margin é a parte de respiro externo
+padding 10px;
+
+top = cima
+right = direita
+left = esquerda
+bottom = baixo
+
+padding espaço interior
+margin espaço exterior
+
+:: pseudo elemento
+: pseudo classe

@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background: linear-gradient(360deg, #263238, #00ff88, #77ffc0 );
+    font-family: 'Roboto', sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.cont {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-label {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-label > h1{
+    color: #fff;
+}
+
+.right-label {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0px;
+    background: #2f2841;
+    border-radius: 4%;
+    box-shadow: 0px 10px 40px #00000056;
+    opacity: 80%;
+}
+
+.card > h1 {
+    color: #00ff88;
+    font-weight: 800;
+    margin:  0;
+    font-size: 4vw;
+}
+
+.textfield {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    outline: none;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    box-sizing: border-box;
+}
+
+.textfield >label {
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.textfield > input::placeholder {
+    color: #f0ffff94;
+}
+
+.btn-login {
+    width: 40%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+.btn-login:hover {
+    background: #60557e;
+    color: #b3f8f894;
+    width: 50%;
+    height: 50px;
+}
+
+.left-img {
+    width: 35vw;
+}
+
+@media only screen and (max-width: 950px){
+    .card {
+        width: 85%;
+    }
+    .left-label >h1 {
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .cont {
+        flex-direction: column;
+    }
+    .left-label > h1 {
+        display: none;
+    }
+    .left-label {
+        width: 100%;
+        height: auto;
+    }
+    .right-label {
+        width: 100%;
+        height: auto;
+    }
+    .left-label > img {
+        width: 50vw;
+    }
+    .card > h1 {
+        font-size: 8vw;
+    }
+}

@@ -1,0 +1,28 @@
+- Maiusculas e minusculas fazem diferença / se eu criar uma vareavel ' a ' e tentar mostrar uma vareavel ' A '
+- Tente escolher nomes coerentes para as variáveis / programador alfabeto ou programador contador
+ 
+5,18,-12 = numeros inteiros
+0.5,-15.9,3.14,8.0 = numeros reais, ou ponto flutuante
+Number
+
+"Google" 
+'JavaScript' 
+`Maria` 
+String = são cadeias de caracteries/tipo CPF
+
+True
+False
+Boolean
+
+Typeof - o que utilizamos para usar:
+
+Number 
+  Infinity
+  NaN - not a number
+String
+Boolean
+Null
+Underfined
+Object
+  Array - um vetor
+Function

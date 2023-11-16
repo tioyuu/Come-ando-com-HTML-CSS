@@ -1,0 +1,27 @@
+vaga a1 = carro1
+sinal de = se le recebe
+a1-null 
+null significa nulo
+terreno do computador se le memória
+espaços demarcados nomeamos de vareavel
+var=vareavel
+
+var n1=5
+var n2=8,5
+var n3=15
+
+existem vareaveis de tamanhos diferentes pra caber tamanhos diferentes
+
+var s1="JavaScript"
+var s2='Curso em Video'
+var s3=`Guanabara`
+
+o nome de cada vareavel chamamos de identificadores
+
+- podem começar com letra,$ ou _
+- não podem começar com numeros
+- é possivel usar letras ou numeros
+- é possivel usar acentos e símbolos
+- não podem conter espaços
+- não podem ser palavras reservadas
+

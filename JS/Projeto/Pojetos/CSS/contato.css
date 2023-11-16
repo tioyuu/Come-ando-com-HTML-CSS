@@ -1,0 +1,23 @@
+form{
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0px 4px 8px #999;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1em;
+    font: 1em sans-serif;
+    border: 1px solid #999;
+}
+
+label{
+    font-weight: bold;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+/*button{
+    
+}  */
